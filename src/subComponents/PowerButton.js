@@ -1,7 +1,8 @@
 import React from 'react';
-import styled from 'styled-components'
+import {NavLink} from "react-router-dom";
+import styled from 'styled-components';
 import {PowerBtn} from "../Components/AllSvg";
-const Power = styled.button`
+const Power = styled(NavLink)`
   position: fixed;
   top: 2rem;
   left: 50%;
@@ -10,8 +11,8 @@ const Power = styled.button`
   padding: 0.3rem;
   border-radius: 50%;
   border: 1px solid #000;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,8 +30,8 @@ const Power = styled.button`
 
 const PowerButton = () => {
     return (
-        <Power>
-            <PowerBtn width={30} height={30} fill='currentColor'/>
+        <Power to={'/'} >
+            <PowerBtn width={30} height={30} fill={props => props.theme.text} />
         </Power>
     )
 }

@@ -1,10 +1,10 @@
 import React from "react";
 import styled from 'styled-components';
-import {DarkTheme} from "../Components/Themes";
+import {DarkTheme, LightTheme} from "../Components/Themes";
 
 const Logo = styled.h1`
   display: inline-block;
-  color: ${props => props.color === 'dark'  ? DarkTheme.text : DarkTheme.body};
+  color: ${props => props.color === 'dark'  ? DarkTheme.text : LightTheme.text};
   font-family: 'Pacifico', cursive;
   position: fixed;
   left: 2rem;

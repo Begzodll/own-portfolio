@@ -1,12 +1,13 @@
 import React, {useState} from "react";
+import {NavLink} from "react-router-dom";
 import PowerButton from "../subComponents/PowerButton";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
 import Into from "./Into";
-import {YinYang} from "./AllSvg";
 
+import {YinYang} from "./AllSvg";
+import {motion} from "framer-motion";
 import styled, {keyframes} from 'styled-components';
-import {NavLink} from "react-router-dom";
 
 const MainContainer = styled.div`
   background: ${props => props.theme.body};
@@ -117,7 +118,21 @@ const DarkDiv = styled.div`
   z-index: 1;
   transition: height 0.5s ease, width 1s ease 0.5s;
 `
-
+const SayVariant = {
+    visible:{
+        x: [ 0, -1, 1, -1, 1, 0 ],
+        transition:{ type:'spring', stiffness:350, delay:2,  yoyo: Infinity},
+    },
+    hover:{
+        scale:1.1,
+        x: 0,
+        textShadow:"0px 0px 8px rgb(255,255,255)",
+        transition:{
+            duration:.3,
+            yoyo:Infinity,
+        }
+    },
+}
 const MainPage = () => {
 
     const [click, setClick] = useState(false);
@@ -137,30 +152,46 @@ const MainPage = () => {
                     <span>click here</span>
                 </Center>
                 <Contact target="_blank" to={{pathname: "mailto:begzodsirojiddinov0@gmail.com"}}>
-                    <h3>
+                    <motion.h2
+                        variants={SayVariant}
+                        animate={'visible'}
+                        whileHover={'hover'}
+                    >
                         Say hi...
-                    </h3>
+                    </motion.h2>
                 </Contact>
                 <BLOG to={"/blog"}>
-                    <h2>
+                    <motion.h2
+                        whileHover={{scale: 1.1}}
+                        whileTap={{scale:0.9}}
+                    >
                         Blog
-                    </h2>
+                    </motion.h2>
                 </BLOG>
                 <WORK to={"/work"} click={click}>
-                    <h2>
+                    <motion.h2
+                        whileHover={{scale: 1.1}}
+                        whileTap={{scale:0.9}}
+                    >
                         Work
-                    </h2>
+                    </motion.h2>
                 </WORK >
                 <BottomBar>
                     <ABOUT to={"/about"} click={click}>
-                        <h2>
+                        <motion.h2
+                            whileHover={{scale: 1.1}}
+                            whileTap={{scale:0.9}}
+                        >
                             About.
-                        </h2>
+                        </motion.h2>
                     </ABOUT>
                     <SKILLS to={"/skills"}>
-                        <h2>
-                            Skills...
-                        </h2>
+                        <motion.h2
+                            whileHover={{scale: 1.1}}
+                            whileTap={{scale:0.9}}
+                        >
+                            My Skills...
+                        </motion.h2>
                     </SKILLS>
                 </BottomBar>
             </Container>

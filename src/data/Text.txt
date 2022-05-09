@@ -22,7 +22,7 @@ Figma
 
 I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
 SKILLS
-Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.
+Html, Css, Sass, Bootstrap, Js, React, Redux, Saga, etc.
 
 TOOLS
 VScode, Github, Codepen etc.
