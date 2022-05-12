@@ -1,8 +1,9 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
+import {motion} from "framer-motion";
 import styled from 'styled-components';
 
-const Box = styled(NavLink)`
+const Box = styled(motion(NavLink))`
   width: calc(10rem + 15vw);
   text-decoration: none;
   height: 20rem;
@@ -55,23 +56,42 @@ const Tag = styled.div`
 const Date = styled.span`
  padding: .5rem 0; 
 `
+const Container = styled(motion.div)``
+//Motion
+const Item = {
+    hidden:{
+        scale:0,
+    },
+    show:{
+        scale: 1,
+        transition:{
+            type:'spring',
+            duration:.5
+        }
+    }
+}
 const BlogComponent = (props) => {
     const {name, tags, date, imgSrc, link} = props.blog
     return (
-        <Box target="_blank" to={{pathname: link}}>
-            <Image img={imgSrc}/>
-            <Title>{name}</Title>
-            <HashTags>
-                {
-                    tags.map((item,index) => {
-                        return <Tag key={index}>#{item}</Tag>
-                    })
-                }
-            </HashTags>
-            <Date>
-                {date}
-            </Date>
-        </Box>
+   <Container
+    variants={Item}
+
+   >
+       <Box target="_blank" to={{pathname: link}}>
+           <Image img={imgSrc}/>
+           <Title>{name}</Title>
+           <HashTags>
+               {
+                   tags.map((item,index) => {
+                       return <Tag key={index}>#{item}</Tag>
+                   })
+               }
+           </HashTags>
+           <Date>
+               {date}
+           </Date>
+       </Box>
+   </Container>
     )
 }
 export default BlogComponent

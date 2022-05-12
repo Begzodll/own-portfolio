@@ -33,6 +33,9 @@ const Contact = styled(NavLink)`
   right: calc(1rem + 2vw);
   text-decoration: none;
   z-index: 3;
+  @media(max-width: 992px){
+    color: ${props => props.click ? props.theme.body : props.theme.text};
+  }
 `
 
 const BLOG = styled(NavLink)`
@@ -43,6 +46,10 @@ const BLOG = styled(NavLink)`
   transform: rotate(90deg) translate(-50%, 50%);
   text-decoration: none;
   z-index: 1;
+  @media(max-width: 992px){
+    top: 57%;
+    color: ${props => props.theme.text};
+  }
 `
 const WORK = styled(NavLink)`
   color: ${props => props.click ? props.theme.body : props.theme.text};
@@ -52,7 +59,13 @@ const WORK = styled(NavLink)`
   transform: translate(-50%, -50%) rotate(-90deg);
   text-decoration: none;
   z-index: 1;
+  @media(max-width: 992px){
+    color: ${props => props.click ? props.theme.text : props.theme.text};
+    top: 56%;
+    
+  }
 `
+
 
 const BottomBar = styled.div`
   position: absolute;
@@ -67,6 +80,9 @@ const ABOUT = styled(NavLink)`
   color: ${props => props.click ? props.theme.body : props.theme.text};
   text-decoration: none;
   z-index: 1;
+  @media(max-width: 992px){
+    color: ${props => props.click ? props.theme.text : props.theme.text};
+  }
 `
 const SKILLS = styled(NavLink)`
   color: ${props => props.theme.text};
@@ -115,24 +131,15 @@ const DarkDiv = styled.div`
   right: 50%;
   width: ${props => props.click ? '50%' :'0%'};
   height: ${props => props.click ? '100%' :'0%'};
+  @media(max-width: 992px){
+    bottom: 50%;
+    right: 0;
+    width: ${props => props.click ? '100%' :'0%'};
+    height: ${props => props.click ? '50%' :'0%'};
+  }
   z-index: 1;
   transition: height 0.5s ease, width 1s ease 0.5s;
 `
-const SayVariant = {
-    visible:{
-        x: [ 0, -1, 1, -1, 1, 0 ],
-        transition:{ type:'spring', stiffness:350, delay:2,  yoyo: Infinity},
-    },
-    hover:{
-        scale:1.1,
-        x: 0,
-        textShadow:"0px 0px 8px rgb(255,255,255)",
-        transition:{
-            duration:.3,
-            yoyo:Infinity,
-        }
-    },
-}
 const MainPage = () => {
 
     const [click, setClick] = useState(false);
@@ -151,17 +158,32 @@ const MainPage = () => {
                              fill='currentColor'/>
                     <span>click here</span>
                 </Center>
-                <Contact target="_blank" to={{pathname: "mailto:begzodsirojiddinov0@gmail.com"}}>
+                <Contact click={click} target="_blank" to={{pathname: "mailto:begzodsirojiddinov0@gmail.com"}}>
                     <motion.h2
-                        variants={SayVariant}
-                        animate={'visible'}
-                        whileHover={'hover'}
+                        initial={{
+                            y:-200,
+                            transition:{type:'spring', duration:1.5, delay:1}
+                        }}
+                        animate={{
+                            y:0,
+                            transition:{type:'spring', duration: 1.5, delay:1}
+                        }}
+                        whileHover={{scale: 1.1}}
+                        whileTap={{scale:0.9}}
                     >
                         Say hi...
                     </motion.h2>
                 </Contact>
                 <BLOG to={"/blog"}>
                     <motion.h2
+                        initial={{
+                            y:-200,
+                            transition:{type:'spring', duration:1.5, delay:1}
+                        }}
+                        animate={{
+                            y:0,
+                            transition:{type:'spring', duration: 1.5, delay:1}
+                        }}
                         whileHover={{scale: 1.1}}
                         whileTap={{scale:0.9}}
                     >
@@ -170,6 +192,16 @@ const MainPage = () => {
                 </BLOG>
                 <WORK to={"/work"} click={click}>
                     <motion.h2
+                        initial={{
+                            x:-200,
+                            y:-100,
+                            transition:{type:'spring', duration:1.5, delay:1}
+                        }}
+                        animate={{
+                            x:0,
+                            y:0,
+                            transition:{type:'spring', duration: 1.5, delay:1}
+                        }}
                         whileHover={{scale: 1.1}}
                         whileTap={{scale:0.9}}
                     >
@@ -179,6 +211,14 @@ const MainPage = () => {
                 <BottomBar>
                     <ABOUT to={"/about"} click={click}>
                         <motion.h2
+                            initial={{
+                                y:200,
+                                transition:{type:'spring', duration:1.5, delay:1}
+                            }}
+                            animate={{
+                                y:0,
+                                transition:{type:'spring', duration: 1.5, delay:1}
+                            }}
                             whileHover={{scale: 1.1}}
                             whileTap={{scale:0.9}}
                         >
@@ -187,6 +227,14 @@ const MainPage = () => {
                     </ABOUT>
                     <SKILLS to={"/skills"}>
                         <motion.h2
+                            initial={{
+                                y:200,
+                                transition:{type:'spring', duration:1.5, delay:1}
+                            }}
+                            animate={{
+                                y:0,
+                                transition:{type:'spring', duration: 1.5, delay:1}
+                            }}
                             whileHover={{scale: 1.1}}
                             whileTap={{scale:0.9}}
                         >

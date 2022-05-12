@@ -21,16 +21,11 @@ const Slider = styled.div`
   }
 
 `
-const PreDisplay = styled.div`
-  position: absolute;
-  top: 0;
-  right: .6rem;
-`
+
 
 
 const AnchorComponent = (props) => {
     const ref = useRef(null)
-    const hiddenRef = useRef(null)
 
 
     useEffect(() => {
@@ -46,11 +41,7 @@ const AnchorComponent = (props) => {
 
             ref.current.style.transform = `translateY(${-diffP}%)`
 
-            if( window.pageYOffset > 5 ){
-                hiddenRef.current.style.display = 'none'
-            } else {
-                hiddenRef.current.style.display = 'block'
-            }
+
         }
 
         window.addEventListener('scroll', handleScroll)
@@ -60,15 +51,14 @@ const AnchorComponent = (props) => {
 
     return (
         <Container>
-            <PreDisplay ref={hiddenRef} className={'hidden'}>
-                <Anchor width={70} height={70} fill='currentColor'/>
-            </PreDisplay>
+
             <Slider ref={ref}>
                 {
                     [...Array(props.numbers)].map((i, id) => {
                         return <Link key={id} width={25} height={25} fill='currentColor' className={'chain'}/>
                     })
                 }
+                <Anchor width={70} height={70} fill='currentColor'/>
             </Slider>
 
         </Container>

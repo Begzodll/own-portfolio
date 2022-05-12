@@ -3,10 +3,10 @@ import LogoComponent from "../../subComponents/LogoComponent";
 import SocialIcons from "../../subComponents/SocialIcons";
 import PowerButton from "../../subComponents/PowerButton";
 import ParticleComponent from "../../subComponents/ParticleComponent";
-
 import Astronaut from '../../assets/Images/spaceman.png'
 import {DarkTheme} from '../Themes';
 import styled, {keyframes, ThemeProvider} from "styled-components";
+import BigTitle from "../../subComponents/BigTitle";
 
 const Box = styled.div`
   background-color: ${props => props.theme.body};
@@ -63,7 +63,7 @@ const AboutPage = () => {
     return (
         <ThemeProvider theme={DarkTheme}>
             <Box>
-                <LogoComponent/>
+                <LogoComponent theme='dark'/>
                 <SocialIcons theme='dark'/>
                 <PowerButton theme='dark'/>
                 <ParticleComponent theme='dark'/>
@@ -82,7 +82,7 @@ const AboutPage = () => {
                     I believe everything is an Art when you put your consciousness in it. You can connect with me via
                     social links.
                 </Main>
-
+                <BigTitle text={'ABOUT'} top='10%' left="5%"/>
             </Box>
         </ThemeProvider>
     )

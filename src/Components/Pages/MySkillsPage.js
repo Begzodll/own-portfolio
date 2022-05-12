@@ -4,9 +4,9 @@ import SocialIcons from "../../subComponents/SocialIcons";
 import PowerButton from "../../subComponents/PowerButton";
 import ParticleComponent from "../../subComponents/ParticleComponent";
 import {Design, Developer} from "../AllSvg";
-
 import {LightTheme} from '../Themes'
 import styled, {ThemeProvider} from "styled-components";
+import BigTitle from "../../subComponents/BigTitle";
 
 const Box = styled.div`
   background-color: ${props => props.theme.body};
@@ -117,6 +117,7 @@ const MySkillsPage = () => {
                         </p>
                     </Description>
                 </Main>
+                <BigTitle text={'Skills'} top='80%' right="30%"/>
             </Box>
         </ThemeProvider>
     )

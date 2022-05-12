@@ -12,6 +12,7 @@ const Box = styled(motion.div)`
   width: 60vw;
   height: 55vh;
   display: flex;
+ 
   background: linear-gradient(
     to right,
     ${props => props.theme.body} 50%,
@@ -24,9 +25,10 @@ const Box = styled(motion.div)`
   background-size: 100% 2px;
   border-left: 2px solid ${props => props.theme.body};
   border-right: 2px solid ${props => props.theme.text};
+  @media(max-width: 992px){
+  }
   z-index: 1;
 `
-
 const SubBox = styled.div`
   width: 50%;
   position: relative;
@@ -46,7 +48,7 @@ const Text = styled.div`
   color:${props => props.theme.body} ;
   padding: 2rem;
   cursor: pointer;
-  
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -68,7 +70,7 @@ const Into = () => {
                 <Text>
                     <h1>Hi,</h1>
                     <h3>I'm Developer</h3>
-                    <h6>I desing and Code Simple yet beatiful website</h6>
+                    <h6>I desing and Code Simple yet buteful website</h6>
                 </Text>
             </SubBox>
             <SubBox>
