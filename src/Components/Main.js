@@ -249,7 +249,7 @@ const Main = () => {
             <Contact
               click={+false}
               target="_blank"
-              to={{ pathname: "mailto:codebucks27@gmail.com" }}
+              to={{ pathname: "mailto:begzodsirojiddinov0@gmail.com" }}
             >
               <motion.h3
                 initial={{
