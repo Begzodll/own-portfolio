@@ -1,0 +1,28 @@
+Folder Structure:
+
+    - assets => contains all the assests such as images, audio and svg files
+    - componenets => Files/Pages used to build this portfolio
+    - subComponents => Reusable componenets
+    - config => contains config files for particle js
+    - globalStyles.js => contains global styles for whole application
+
+
+Steps to run
+
+    - Make sure to open this directory in Terminal / CMD
+    - Run npm install
+    - Run npm start
+
+
+Few tips:
+
+    - If you're using this portfolio make sure you have changed all required links (social)
+    - You can create your avatar from pixton
+
+If you have any question or You want me to make project then You can reach out to me via:
+
+E-mail : begzodsirojiddinov0@gmail.com
+Telegram: https://t.me/begzodll
+Instagram: https://www.instagram.com/begzoddl/
+
+YouTube: https://www.youtube.com/channel/UCVDW6xAn0Terj8VkMsT7ndA
