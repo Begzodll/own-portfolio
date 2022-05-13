@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a686473-9fde-4841-8d99-35e9fe4bb0c6" name="Changes" comment="completed responsive" />
+    <list default="true" id="936765c2-18eb-41af-a897-6acab8ba4a24" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/own-portfolio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Intro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Images/profile-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Images/profile-img.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="294wv0cJjeras3w68dJk0wLLE9e" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="296ebXHqg53OeQeNQnn16EL8Wvb" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,53 +28,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Main/own-portfolio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Main" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4a686473-9fde-4841-8d99-35e9fe4bb0c6" name="Changes" comment="" />
-      <created>1652385892888</created>
+      <changelist id="936765c2-18eb-41af-a897-6acab8ba4a24" name="Changes" comment="" />
+      <created>1652438037315</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652385892888</updated>
-      <workItem from="1652385894238" duration="11000" />
-      <workItem from="1652385914607" duration="175000" />
-      <workItem from="1652386123833" duration="661000" />
+      <updated>1652438037315</updated>
+      <workItem from="1652438040308" duration="10000" />
+      <workItem from="1652438415818" duration="109000" />
+      <workItem from="1652441966012" duration="3000" />
+      <workItem from="1652461629152" duration="23000" />
+      <workItem from="1652461669033" duration="29000" />
     </task>
-    <task id="LOCAL-00001" summary="completed responsive">
-      <created>1652385934901</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1652385934901</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="completed responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed responsive" />
   </component>
 </project>

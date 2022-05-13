@@ -100,8 +100,8 @@ const SubBox = styled.div`
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 0%);
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 135%;
   }
   ${mediaQueries(50)`
       width: 100%;
@@ -151,6 +151,7 @@ const Text = styled(motion.div)`
   color: ${(props) => props.theme.body};
   padding: 2rem;
   cursor: pointer;
+  z-index:2;
 
   display: flex;
   flex-direction: column;
