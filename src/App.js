@@ -1,7 +1,7 @@
 import { Switch, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import { lazy, Suspense } from "react";
-import GlobalStyle from "./globalStyles";
+import GlobalStyle from './assets/styles/globalStyles'
 import { ThemeProvider } from "styled-components";
 import { lightTheme } from "./components/Themes";
 import Loading from "./subComponents/Loading";
@@ -20,7 +20,6 @@ function App() {
   return (
     <>
       <GlobalStyle />
-
       <ThemeProvider theme={lightTheme}>
         <Suspense fallback={<Loading />}>
           <SoundBar />

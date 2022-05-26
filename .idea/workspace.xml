@@ -4,11 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="936765c2-18eb-41af-a897-6acab8ba4a24" name="Changes" comment="" />
+    <list default="true" id="936765c2-18eb-41af-a897-6acab8ba4a24" name="Changes" comment="bug fixed">
+      <change afterPath="$PROJECT_DIR$/public/begzodSrojidinov.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/loader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MySkillsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MySkillsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/BlogData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/BlogData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/WorkData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/WorkData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subComponents/Loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/Loading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subComponents/LogoComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/LogoComponent.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,11 +44,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Projects\own-portfolio\src\assets\styles" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,6 +73,12 @@
       <workItem from="1652461711943" duration="1845000" />
       <workItem from="1652464390640" duration="10000" />
       <workItem from="1652464415525" duration="28000" />
+      <workItem from="1652464475209" duration="2283000" />
+      <workItem from="1652717360146" duration="12000" />
+      <workItem from="1653545747560" duration="122000" />
+      <workItem from="1653545871987" duration="273000" />
+      <workItem from="1653850163260" duration="9000" />
+      <workItem from="1653925448606" duration="7288000" />
     </task>
     <task id="LOCAL-00001" summary="changed banner">
       <created>1652461741999</created>
@@ -71,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652462623662</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="bug fixed">
+      <created>1653546082614</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653546082614</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +131,7 @@
     <MESSAGE value="changed banner" />
     <MESSAGE value="added photo" />
     <MESSAGE value="sized mb" />
-    <option name="LAST_COMMIT_MESSAGE" value="sized mb" />
+    <MESSAGE value="bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fixed" />
   </component>
 </project>

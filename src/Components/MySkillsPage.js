@@ -196,13 +196,13 @@ const MySkillsPage = () => {
             <Description>
               <strong>Skills</strong> <br />
               <p>
-                Html, Css, Sass, Bootstrap, JS, jQuery, React, Redux
+                Html, Css, Sass, Bootstrap, Tailwind, JS, jQuery, React, Redux
                 etc.
               </p>
             </Description>
             <Description>
               <strong>Tools</strong> <br />
-              <p>VScode, Web Storm, GitHub, GitLab etc.</p>
+              <p>VScode, Web Storm, GitHub, GitLab </p>
             </Description>
           </Main>
           <BigTitle text="Skills" top="80%" right="30%" />

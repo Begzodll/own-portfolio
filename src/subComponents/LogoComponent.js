@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import {NavLink} from 'react-router-dom';
 import { DarkTheme, mediaQueries } from "../components/Themes";
 
-const Logo = styled.h1`
+const Logo = styled(NavLink)`
   display: inline-block;
   color: ${(props) =>
     props.color === "dark" ? DarkTheme.text : DarkTheme.body};
@@ -9,7 +10,8 @@ const Logo = styled.h1`
   position: fixed;
   left: 2rem;
   top: 2rem;
-
+  text-decoration: none;
+  font-size: 2rem;
   z-index: 3;
 
   ${mediaQueries(40)`
@@ -20,7 +22,9 @@ const Logo = styled.h1`
 `;
 
 const LogoComponent = (props) => {
-  return <Logo color={props.theme}>CB</Logo>;
+  return <Logo color={props.theme}
+               to="../../public/begzodSrojidinov.pdf" target="_blank" download
+  >CV</Logo>;
 };
 
 export default LogoComponent;
