@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="936765c2-18eb-41af-a897-6acab8ba4a24" name="Changes" comment="bug fixed">
-      <change afterPath="$PROJECT_DIR$/public/begzodSrojidinov.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/loader.css" afterDir="false" />
+    <list default="true" id="936765c2-18eb-41af-a897-6acab8ba4a24" name="Changes" comment="All Complete closed !!!">
+      <change afterPath="$PROJECT_DIR$/src/assets/CV/begzodSrojidinov.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MySkillsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MySkillsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/BlogData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/BlogData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/WorkData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/WorkData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subComponents/Loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/Loading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/begzodSrojidinov.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/subComponents/LogoComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/LogoComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +73,8 @@
       <workItem from="1653545747560" duration="122000" />
       <workItem from="1653545871987" duration="273000" />
       <workItem from="1653850163260" duration="9000" />
-      <workItem from="1653925448606" duration="7288000" />
+      <workItem from="1653925448606" duration="9043000" />
+      <workItem from="1653977734575" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="changed banner">
       <created>1652461741999</created>
@@ -108,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653546082614</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="All Complete closed !!!">
+      <created>1653943807670</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653943807670</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +135,8 @@
     <MESSAGE value="added photo" />
     <MESSAGE value="sized mb" />
     <MESSAGE value="bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fixed" />
+    <MESSAGE value="Created download button" />
+    <MESSAGE value="All Complete closed !!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="All Complete closed !!!" />
   </component>
 </project>

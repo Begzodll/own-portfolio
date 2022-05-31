@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {NavLink} from 'react-router-dom';
 import { DarkTheme, mediaQueries } from "../components/Themes";
-
+// import cv from '../assets/CV/begzodSrojidinov.pdf'
 const Logo = styled(NavLink)`
   display: inline-block;
   color: ${(props) =>
@@ -23,7 +23,7 @@ const Logo = styled(NavLink)`
 
 const LogoComponent = (props) => {
   return <Logo color={props.theme}
-               to="../../public/begzodSrojidinov.pdf" target="_blank" download
+               to="../assets/CV/begzodSrojidinov.pdf" target="_blank" download
   >CV</Logo>;
 };
 
