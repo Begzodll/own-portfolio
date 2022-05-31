@@ -1,15 +1,15 @@
 export const Work = [
+    // {
+    //     id:1,
+    //     name:"Renowned learning center",
+    //     description:"It is build on top of the React JS, with styledComponents and motion animation",
+    //     tags:["react","motion","sass"],
+    //
+    //     demo:"https://british-house.vercel.app/",
+    //     github:"https://github.com/Begzodll"
+    // },
     {
         id:1,
-        name:"Renowned learning center",
-        description:"It is build on top of the React JS, with styledComponents and motion animation",
-        tags:["react","motion","sass"],
-        
-        demo:"https://british-house.vercel.app/",
-        github:"https://github.com/Begzodll"
-    },
-    {
-        id:2,
         name:"Json placeholder fake api",
         description:"It is CRUD functions build in ReactJS. With searching and filtering functionalities.",
         tags:["react","redux", "styledComponent"],
@@ -19,7 +19,7 @@ export const Work = [
         
     },
     {
-        id:3,
+        id:2,
         name:"Fake json-server",
         description:"It is CRUD, Register and search images with ReactJs. More functionalities",
         tags:["react","redux", "api", "tailwind"],
@@ -28,7 +28,7 @@ export const Work = [
         github:"https://github.com/Begzodll/fake-server-CRUD"
     },
     {
-        id:4,
+        id:3,
         name:"Real time Chat ",
         description:"It is international real time chat ✌️) ",
         tags:["react","css","firebase"],
@@ -37,7 +37,7 @@ export const Work = [
         github:"https://github.com/Begzodll/real-time-chat"
        
     },{
-        id:5,
+        id:4,
         name:"Tik Tak Toe",
         description:"A tik tak toe game builded with using React and tailwind for encharting view.",
         tags:["react","tailwind"],
@@ -47,7 +47,7 @@ export const Work = [
         
     },
     {
-        id:6,
+        id:5,
         name:"Memory game",
         description:"It helpes increase ability to remember",
         tags:["react","css"],

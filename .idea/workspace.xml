@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="936765c2-18eb-41af-a897-6acab8ba4a24" name="Changes" comment="All Complete closed !!!">
-      <change afterPath="$PROJECT_DIR$/src/assets/CV/begzodSrojidinov.pdf" afterDir="false" />
+    <list default="true" id="936765c2-18eb-41af-a897-6acab8ba4a24" name="Changes" comment="CV changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/begzodSrojidinov.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subComponents/LogoComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/LogoComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/CV/begzodSrojidinov.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/CV/begzodSrojidinov.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/WorkData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/WorkData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,8 @@
       <workItem from="1653545871987" duration="273000" />
       <workItem from="1653850163260" duration="9000" />
       <workItem from="1653925448606" duration="9043000" />
-      <workItem from="1653977734575" duration="307000" />
+      <workItem from="1653977734575" duration="619000" />
+      <workItem from="1654017183885" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="changed banner">
       <created>1652461741999</created>
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653943807670</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CV changed">
+      <created>1653978201733</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653978201733</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +144,7 @@
     <MESSAGE value="bug fixed" />
     <MESSAGE value="Created download button" />
     <MESSAGE value="All Complete closed !!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="All Complete closed !!!" />
+    <MESSAGE value="CV changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="CV changed" />
   </component>
 </project>
