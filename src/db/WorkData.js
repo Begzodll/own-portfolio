@@ -1,13 +1,5 @@
 export const Work = [
-    // {
-    //     id:1,
-    //     name:"Renowned learning center",
-    //     description:"It is build on top of the React JS, with styledComponents and motion animation",
-    //     tags:["react","motion","sass"],
-    //
-    //     demo:"https://british-house.vercel.app/",
-    //     github:"https://github.com/Begzodll"
-    // },
+
     {
         id:1,
         name:"Json placeholder fake api",
