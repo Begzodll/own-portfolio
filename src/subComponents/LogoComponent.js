@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import {NavLink} from 'react-router-dom';
-import { DarkTheme, mediaQueries } from "../components/Themes";
-// import cv from '../assets/CV/begzodSrojidinov.pdf'
+import { DarkTheme, mediaQueries } from "../components/Theme";
 const Logo = styled(NavLink)`
   display: inline-block;
   color: ${(props) =>

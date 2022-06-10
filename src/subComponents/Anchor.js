@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { useEffect, useRef } from "react";
 
 import { Anchor, Link } from "../components/AllSvgs";
-import { mediaQueries } from "../components/Themes";
+import { mediaQueries } from "../components/Theme";
 
 const Container = styled.div`
   position: relative;

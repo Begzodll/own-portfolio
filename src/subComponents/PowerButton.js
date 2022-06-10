@@ -1,7 +1,7 @@
 import { PowerBtn } from "../components/AllSvgs";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-import { mediaQueries } from "../components/Themes";
+import { mediaQueries } from "../components/Theme";
 
 const Power = styled.button`
   position: fixed;

@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="936765c2-18eb-41af-a897-6acab8ba4a24" name="Changes" comment="fixed err build">
+    <list default="true" id="936765c2-18eb-41af-a897-6acab8ba4a24" name="Changes" comment="fixed err buildd">
+      <change afterPath="$PROJECT_DIR$/src/Components/Theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Themes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subComponents/Anchor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/Anchor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subComponents/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subComponents/Loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/Loading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subComponents/LogoComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/LogoComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subComponents/ParticlesComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/ParticlesComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subComponents/PowerButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/PowerButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subComponents/SocialIcons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/SocialIcons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subComponents/SoundBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/SoundBar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +118,7 @@
       <workItem from="1654021018459" duration="30000" />
       <workItem from="1654021076020" duration="261000" />
       <workItem from="1654254689181" duration="13000" />
-      <workItem from="1654839446305" duration="2512000" />
+      <workItem from="1654839446305" duration="3586000" />
     </task>
     <task id="LOCAL-00001" summary="changed banner">
       <created>1652461741999</created>
@@ -205,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654842545180</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fixed err build">
+      <created>1654843000146</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1654843000146</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fixed err buildd">
+      <created>1654843006926</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1654843006926</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +265,7 @@
     <MESSAGE value="Closed" />
     <MESSAGE value="clsd" />
     <MESSAGE value="fixed err build" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed err build" />
+    <MESSAGE value="fixed err buildd" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed err buildd" />
   </component>
 </project>

@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 import { NavLink } from "react-router-dom";
-import { DarkTheme, mediaQueries } from "../components/Themes";
+import { DarkTheme, mediaQueries } from "../components/Theme";
 
 const Icons = styled.div`
   display: flex;

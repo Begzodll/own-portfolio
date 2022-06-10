@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import styled, { keyframes } from "styled-components";
 
 import music from "../assets/audio/u-said-it-v13-1167.mp3";
-import { mediaQueries } from "../components/Themes";
+import { mediaQueries } from "../components/Theme";
 const Box = styled.div`
   display: flex;
   cursor: pointer;
