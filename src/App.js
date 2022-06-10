@@ -3,9 +3,8 @@ import { AnimatePresence } from "framer-motion";
 import { lazy, Suspense } from "react";
 import GlobalStyle from './assets/styles/globalStyles'
 import { ThemeProvider } from "styled-components";
-import { lightTheme } from "./components/Themes";
 import Loading from "./subComponents/Loading";
-
+import {lightTheme} from './components/Themes'
 //Components
 const Main = lazy(() => import("./components/Main"));
 const AboutPage = lazy(() => import("./components/AboutPage"));
