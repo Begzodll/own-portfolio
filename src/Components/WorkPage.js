@@ -5,7 +5,7 @@ import styled, { ThemeProvider } from "styled-components";
 
 import { YinYang } from "./AllSvgs";
 import { Work } from "../db/WorkData";
-import { DarkTheme, mediaQueries } from "./Themes";
+import { DarkTheme, mediaQueries } from "./Theme";
 
 import Card from "../subComponents/Card";
 import Loading from "../subComponents/Loading";

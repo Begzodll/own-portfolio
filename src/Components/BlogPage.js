@@ -7,7 +7,7 @@ import { Blogs } from "../db/BlogData";
 
 import BlogComponent from "./BlogComponent";
 import Loading from "../subComponents/Loading";
-import { mediaQueries } from "./Themes";
+import { mediaQueries } from "./Theme";
 
 const AnchorComponent = lazy(() => import("../subComponents/Anchor"));
 const SocialIcons = lazy(() => import("../subComponents/SocialIcons"));

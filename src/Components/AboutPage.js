@@ -2,7 +2,7 @@ import {motion} from 'framer-motion'
 import {lazy, Suspense} from 'react'
 import styled, {keyframes, ThemeProvider} from 'styled-components'
 
-import {DarkTheme, mediaQueries} from './Themes'
+import {DarkTheme, mediaQueries} from './Theme'
 import astronaut from "../assets/Images/spaceman.png";
 import Loading from '../subComponents/Loading';
 //Components

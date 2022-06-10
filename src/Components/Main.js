@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { YinYang } from "./AllSvgs";
 import Intro from "./Intro";
 import Loading from "../subComponents/Loading";
-import { mediaQueries } from "./Themes";
+import { mediaQueries } from "./Theme";
 
 const PowerButton = lazy(() => import("../subComponents/PowerButton"));
 const SocialIcons = lazy(() => import("./../subComponents/SocialIcons"));

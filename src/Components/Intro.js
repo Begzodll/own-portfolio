@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import Me from "../assets/Images/profile-img.png";
-import { mediaQueries } from "./Themes";
+import { mediaQueries } from "./Theme";
 
 const Box = styled(motion.div)`
   /* width: 50vw;

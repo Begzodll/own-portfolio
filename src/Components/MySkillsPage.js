@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import styled, { ThemeProvider } from "styled-components";
 import { lazy, Suspense } from "react";
-import { lightTheme, mediaQueries } from "./Themes";
+import { lightTheme, mediaQueries } from "./Theme";
 
 import { Design, Develope } from "./AllSvgs";
 import Loading from "../subComponents/Loading";
