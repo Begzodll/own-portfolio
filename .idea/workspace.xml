@@ -5,13 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="936765c2-18eb-41af-a897-6acab8ba4a24" name="Changes" comment="fixed err build">
-      <change afterPath="$PROJECT_DIR$/build/static/js/18.162efe50.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/18.162efe50.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.4603295b.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.4603295b.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.465f1740.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.465f1740.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +105,7 @@
       <workItem from="1654021018459" duration="30000" />
       <workItem from="1654021076020" duration="261000" />
       <workItem from="1654254689181" duration="13000" />
-      <workItem from="1654839446305" duration="2173000" />
+      <workItem from="1654839446305" duration="2512000" />
     </task>
     <task id="LOCAL-00001" summary="changed banner">
       <created>1652461741999</created>
@@ -198,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654842273101</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fixed err build">
+      <created>1654842539913</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654842539913</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fixed err build">
+      <created>1654842545180</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1654842545180</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

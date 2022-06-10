@@ -4,7 +4,7 @@ import { lazy, Suspense } from "react";
 import GlobalStyle from './assets/styles/globalStyles'
 import { ThemeProvider } from "styled-components";
 import Loading from "./subComponents/Loading";
-import {lightTheme} from './components/Themes';
+import {lightTheme} from '../src/components/Themes';
 
 //Components
 const Main = lazy(() => import("./components/Main"));
