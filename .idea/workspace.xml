@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="936765c2-18eb-41af-a897-6acab8ba4a24" name="Changes" comment="Bug fixed CI">
+    <list default="true" id="936765c2-18eb-41af-a897-6acab8ba4a24" name="Changes" comment="Closed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/CV/begzodSrojidinov.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/CV/begzodSrojidinov.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/WorkData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/WorkData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +75,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -103,6 +105,10 @@
       <workItem from="1653977734575" duration="619000" />
       <workItem from="1654017183885" duration="64000" />
       <workItem from="1654019450893" duration="1530000" />
+      <workItem from="1654021018459" duration="30000" />
+      <workItem from="1654021076020" duration="261000" />
+      <workItem from="1654254689181" duration="13000" />
+      <workItem from="1654839446305" duration="999000" />
     </task>
     <task id="LOCAL-00001" summary="changed banner">
       <created>1652461741999</created>
@@ -167,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654020430558</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Closed">
+      <created>1654021038066</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654021038066</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +210,7 @@
     <MESSAGE value="CV" />
     <MESSAGE value="last commit" />
     <MESSAGE value="Bug fixed CI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fixed CI" />
+    <MESSAGE value="Closed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Closed" />
   </component>
 </project>
