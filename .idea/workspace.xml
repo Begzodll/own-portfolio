@@ -4,60 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="936765c2-18eb-41af-a897-6acab8ba4a24" name="Changes" comment="clsd">
+    <list default="true" id="936765c2-18eb-41af-a897-6acab8ba4a24" name="Changes" comment="fixed err build">
+      <change afterPath="$PROJECT_DIR$/build/static/js/18.162efe50.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/18.162efe50.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.4603295b.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.4603295b.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.465f1740.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.465f1740.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/12.679831fc.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/12.679831fc.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.7aa7406a.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.7aa7406a.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/0.ec91bdc0.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/0.ec91bdc0.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/1.dda85ba2.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/1.dda85ba2.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/12.34be51b0.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/12.34be51b0.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/12.34be51b0.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/13.dba4beaa.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/13.dba4beaa.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/14.2524e4ec.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/14.2524e4ec.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/15.1bed1ca1.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/15.1bed1ca1.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/16.4d4a4b04.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/16.4d4a4b04.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/17.9aec5208.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/17.9aec5208.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/18.aae0e46b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/18.aae0e46b.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/19.6b0e1fee.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/19.6b0e1fee.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.4f7212ed.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.4f7212ed.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.4f7212ed.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/3.c7ea79e0.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/3.c7ea79e0.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/4.a04c2013.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/4.a04c2013.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/5.ed4115f4.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/5.ed4115f4.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/6.596a1269.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/6.596a1269.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/7.02c2e73e.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/7.02c2e73e.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/8.745b2c53.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/8.745b2c53.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/9.af0ad99a.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/9.af0ad99a.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.8989b9f9.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.8989b9f9.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.957c15d4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.957c15d4.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/patrick-tomasso-Oaqk7qqNh_c-unsplash.8ca90014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/profile-img.3bdf3876.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/spaceman.5ec7fcfa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/u-said-it-v13-1167.17729eaa.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +112,7 @@
       <workItem from="1654021018459" duration="30000" />
       <workItem from="1654021076020" duration="261000" />
       <workItem from="1654254689181" duration="13000" />
-      <workItem from="1654839446305" duration="1953000" />
+      <workItem from="1654839446305" duration="2173000" />
     </task>
     <task id="LOCAL-00001" summary="changed banner">
       <created>1652461741999</created>
@@ -237,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654840598516</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fixed err build">
+      <created>1654842273101</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1654842273101</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +230,7 @@
     <MESSAGE value="Bug fixed CI" />
     <MESSAGE value="Closed" />
     <MESSAGE value="clsd" />
-    <option name="LAST_COMMIT_MESSAGE" value="clsd" />
+    <MESSAGE value="fixed err build" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed err build" />
   </component>
 </project>
