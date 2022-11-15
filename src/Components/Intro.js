@@ -88,7 +88,7 @@ height:50vh;
     background-repeat: no-repeat;
   }
 
-  //height:55vh;
+  //  :55vh;
 `;
 
 const SubBox = styled.div`

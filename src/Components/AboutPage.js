@@ -95,8 +95,7 @@ const AboutPage = () => {
 
     const num = [];
     const year = new Date()
-    for (let i = 2003; i < year.getFullYear()-1; i++) num.push(i)
-
+    for (let i = 2003; i < year.getFullYear()+1; i++)num.push(i)
     return (
         <ThemeProvider theme={DarkTheme}>
             <Suspense fallback={<Loading/>}>
@@ -122,7 +121,7 @@ const AboutPage = () => {
                     <Main
                         initial={{opacity: 0}}
                         animate={{opacity: 1, transition: {duration: 1, delay: 1}}}>
-                        I'm Sirojidinov Begzod {num.length}.y.o a front-end developer located in Uzbekistan. I love to create
+                        I'm Sirojidinov Begzod {num.length-1}.y.o a front-end developer located in Uzbekistan. I love to create
                         simple
                         yet beautiful websites.
                         <br/>
